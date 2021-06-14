@@ -1,0 +1,39 @@
+
+.container {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.output {
+  width: 210px;
+  height: 30px;
+  line-height: 20px;
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 5px;
+  border:2px solid black;
+  box-sizing: border-box;
+  display:none;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+.output.active {
+  display:block;
+} 
+
+.num_bth {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  line-height: 10px;
+}
+
+#clear, #equal_btn {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 10px;
+  margin: 3px;
+}

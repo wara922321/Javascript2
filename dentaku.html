@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>電卓</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class = "container">
+      <div id = "output_total" class="output ">0</div>
+      <div id = "output_sub" class="output active">0</div>
+      <div class = "input">
+        <section>
+          <button class = "num_bth one_nine " data-index-id ="7">7</button>
+          <button class = "num_bth one_nine " data-index-id ="8">8</button>
+          <button class = "num_bth one_nine " data-index-id ="9">9</button>
+          <button class = "num_bth cal" data-index-id ="+">+</button>
+        </section>
+        <section>
+          <button class = "num_bth one_nine " data-index-id ="4">4</button>
+          <button class = "num_bth one_nine " data-index-id ="5">5</button>
+          <button class = "num_bth one_nine " data-index-id ="6">6</button>
+          <button class = "num_bth cal" data-index-id ="-">-</button>     
+        </section>
+        <section>
+          <button class = "num_bth one_nine " data-index-id ="1">1</button>
+          <button class = "num_bth  one_nine" data-index-id ="2">2</button>
+          <button class = "num_bth  one_nine" data-index-id ="3">3</button>
+          <button class = "num_bth cal" data-index-id ="*">*</button>
+          </section>
+        <section>
+          <button class = "num_bth" id="zero" data-index-id ="0">0</button>
+          <button class = "num_bth" data-index-id ="00">00</button>
+          <button class = "num_bth" id="point" data-index-id =".">.</button>
+          <button class = "num_bth cal" data-index-id="/">/</button>
+        </section>
+        <section class="button-bottom">
+          <button clss="button-bottom" id = "clear">C</button>
+          <button id = "equal_btn">=</button>
+        </section>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
